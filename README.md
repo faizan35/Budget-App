@@ -74,6 +74,12 @@ To get a local copy for this project and running follow these simple example ste
 $  sudo -u postgres createuser blog-app -s
 ```
 
+```bash
+createuser -U postgres -s -d blog-app
+```
+
+
+
 ### Creating the Budgy-Budget application
 
 - To create project with PostgreSQL database 
